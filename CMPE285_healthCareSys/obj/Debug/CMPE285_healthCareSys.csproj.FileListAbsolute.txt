@@ -1,0 +1,5 @@
+c:\users\sammie-xiu\documents\visual studio 2012\Projects\CMPE285_healthCareSys\CMPE285_healthCareSys\bin\CMPE285_healthCareSys.dll
+c:\users\sammie-xiu\documents\visual studio 2012\Projects\CMPE285_healthCareSys\CMPE285_healthCareSys\bin\CMPE285_healthCareSys.pdb
+c:\users\sammie-xiu\documents\visual studio 2012\Projects\CMPE285_healthCareSys\CMPE285_healthCareSys\obj\Debug\CMPE285_healthCareSys.csprojResolveAssemblyReference.cache
+c:\users\sammie-xiu\documents\visual studio 2012\Projects\CMPE285_healthCareSys\CMPE285_healthCareSys\obj\Debug\CMPE285_healthCareSys.dll
+c:\users\sammie-xiu\documents\visual studio 2012\Projects\CMPE285_healthCareSys\CMPE285_healthCareSys\obj\Debug\CMPE285_healthCareSys.pdb
