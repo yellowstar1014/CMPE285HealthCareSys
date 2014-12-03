@@ -53,6 +53,11 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
      </nav>
+
+    <div class="list-group">
+        <a href="#" class="btn btn-primary btn-lg active" role="button">Download SOS APP</a>
+    </div>
+
     <form id="form1" runat="server">
     <div>
     

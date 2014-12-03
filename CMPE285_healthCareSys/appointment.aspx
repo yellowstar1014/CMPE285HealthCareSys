@@ -54,11 +54,80 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
      </nav>
-    <form id="form1" runat="server">
-    <div>
-    
+    <div id="search_doctors" style="width:60%; background-color:#f8f8d5; align-content:center">
+        <h2>You can request an appoitment Here: </h2>
+        <form class="form-horizontal" role="form">
+          <div class="form-group form-group-lg">
+            <label class="col-sm-4 control-label" for="formGroupInputLarge">Your Name </label>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" id="formGroupInputSmall" placeholder="small input"/>
+            </div>
+          </div>
+
+          <div class="form-group form-group-lg">
+            <label class="col-sm-4 control-label" for="formGroupInputLarge">Hospital </label>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" id="Text1" placeholder="small input"/>
+            </div>
+          </div>
+
+          <div class="form-group form-group-lg">
+            <label class="col-sm-4 control-label" for="formGroupInputLarge">Your doctor's Name </label>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" id="Text2" placeholder="small input"/>
+            </div>
+          </div>
+
+         <div class="form-group form-group-lg">
+            <label class="col-sm-4 control-label" for="formGroupInputLarge">Date Preference </label>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" id="date" placeholder="small input"/>
+            </div>
+         </div>
+
+          <div class="form-group form-group-lg">
+            <label class="col-sm-4 control-label" for="formGroupInputLarge">Time Preference</label>
+            <div class="col-sm-4">
+                <select>
+                    <option data-value="0">9:00 am</option>
+                    <option data-value="1">10:00 am</option>
+                    <option data-value="2">2:00 pm</option>
+                    <option data-value="2">others</option>            
+                </select>
+            </div>
+          </div>
+
+          <div class="form-group form-group-lg">
+            <label class="col-sm-4 control-label" for="formGroupInputLarge">What Type of appointment? </label>
+            <div class="col-sm-4">
+                <select>
+                    <option data-value="0">Undefined</option>
+                    <option data-value="1">Surgery</option>
+                    <option data-value="2">Referral</option>
+                    <option data-value="3">Consultation</option>           
+                </select>
+            </div>
+          </div>
+
+         <div class="form-group form-group-lg">
+            <label class="col-sm-4 control-label" for="formGroupInputLarge">Description </label>
+            <div class="col-sm-4">
+              <textarea></textarea>
+            </div>
+         </div>
+
+         <div class="form-group">        
+          <div class="col-sm-offset-4 col-sm-10">
+            <button type="submit" class="btn btn-default" style="background-color: #acf574"><strong>Request Appointment</strong></button>
+          </div>
+         </div>
+        </form>
+        <p></p><p></p>
     </div>
+    <form id="form1" runat="server">
+        
     </form>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
