@@ -54,6 +54,46 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
      </nav>
+
+    <h1>Educate Yourself First Aid Information </h1>
+
+    <div class="row">
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="holder.js/300x300" alt="..."/>
+          <div class="caption">
+            <h3>First Information 1</h3>
+            <p>...</p>
+            <p>...</p>
+            <p>...</p>
+            <p>...</p>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="holder.js/300x300" alt="..."/>
+          <div class="caption">
+            <h3>First Information 2</h3>
+            <p>...</p>
+            <p>...</p>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="holder.js/300x300" alt="..."/>
+          <div class="caption">
+            <h3>First Information 3</h3>
+            <p>...</p>
+            <p>...</p>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <form id="form1" runat="server">
     <div>
     

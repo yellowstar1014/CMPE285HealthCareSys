@@ -18,9 +18,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
 </head>
 <body>
-    <nav class="navbar navbar-default" role="navigation" style ="background-color: #acf574">
+    <nav class="navbar navbar-default" role="navigation" style ="background-color:#acf574">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -56,10 +58,10 @@
       </div><!-- /.container-fluid -->
      </nav>
 
-    <h2>Welcome to TeamSix Health Care System</h2>
+    <h1 style="color: #f88d0a">Welcome to TeamSix Health Care System</h1>
 
-    <div class="row">
-        <div class="col-md-8">
+    <div class="row" >
+        <div class="col-md-7" style="background-color: #ddfbf6; margin: 10px">
             <div class="list-group">
               <h3>Our Features</h3>
               <a href="#" class="list-group-item ">
@@ -71,14 +73,14 @@
                 <p class="list-group-item-text">...</p>
               </a>
             </div>
-            <div class="list-group">
-              <h3>People's Voice</h3>
+            <div class="list-group">    
               <a href="#" class="btn btn-primary btn-lg active" role="button">Download First Aid Info</a>
               <a href="#" class="btn btn-primary btn-lg active" role="button">Download Info of Hospitals</a>
               <a href="#" class="btn btn-primary btn-lg active" role="button">Download Info of Doctors</a>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 " style="background-color: #f8f8d5; margin: 10px">
+            <h3>People's Voice</h3>
             <blockquote>
              <p>Messages from a user who describe the situation of the disaster area</p>
              <footer>Some one from users <cite title="Source Titldoe">City</cite></footer>
@@ -98,6 +100,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     
     <footer> <p>&copy 2014 - SJSU CMPE285 Team 6</p></footer>
 </body>

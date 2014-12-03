@@ -66,6 +66,7 @@
             San Francisco, CA 94107<br />
             <abbr title="Phone">Contact:</abbr> (123) 456-7890
             </address></td>
+            <td><img src="holder.js/300x300" alt="..."/></td>
             <td><a href="#">Google Map To Hospital</a></td>
         </tr>
         <tr>
@@ -75,6 +76,7 @@
             San Francisco, CA 94107<br />
             <abbr title="Phone">P:</abbr> (123) 456-7890
             </address></td>
+            <td><img src="holder.js/300x300" alt="..."/></td>
             <td><a href="#">Google Map To Hospital</a></td>
         </tr>
         <tr>
@@ -84,6 +86,7 @@
             San Francisco, CA 94107<br />
             <abbr title="Phone">P:</abbr> (123) 456-7890
             </address></td>
+            <td><img src="holder.js/300x300" alt="..."/></td>
             <td><a href="#">Google Map To Hospital</a></td>
         </tr>
         <tr>
@@ -93,6 +96,7 @@
             San Francisco, CA 94107<br />
             <abbr title="Phone">P:</abbr> (123) 456-7890
             </address></td>
+            <td><img src="holder.js/300x300" alt="..."/></td>
             <td><a href="#">Google Map To Hospital</a></td>
         </tr>
         <tr>
@@ -102,6 +106,7 @@
             San Francisco, CA 94107<br />
             <abbr title="Phone">P:</abbr> (123) 456-7890
             </address></td>
+            <td><img src="holder.js/300x300" alt="..."/></td>
             <td><a href="#">Google Map To Hospital</a></td>
         </tr>
       </table>

@@ -55,15 +55,68 @@
       </div><!-- /.container-fluid -->
      </nav>
 
-    <h2>Search For a Doctor </h2>
-    
+    <div id="search_doctors" style="width:60%; background-color:#f8f8d5; align-content:center">
+        <h2>Search For a Doctor </h2>
+        <form class="form-horizontal" role="form">
+          <div class="form-group form-group-lg">
+            <label class="col-sm-2 control-label" for="formGroupInputLarge">Name </label>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" id="formGroupInputSmall" placeholder="small input"/>
+            </div>
+          </div>
+
+          <div class="form-group form-group-lg">
+            <label class="col-sm-2 control-label" for="formGroupInputLarge">Hospital </label>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" id="Text1" placeholder="small input"/>
+            </div>
+          </div>
+
+          <div class="form-group form-group-lg">
+            <label class="col-sm-2 control-label" for="formGroupInputLarge">Gender </label>
+            <div class="col-sm-4">
+                <select>
+                    <option data-value="0">No preference</option>
+                    <option data-value="1">Male</option>
+                    <option data-value="2">Female</option>            
+                </select>
+            </div>
+          </div>
+
+          <div class="form-group form-group-lg">
+            <label class="col-sm-2 control-label" for="formGroupInputLarge">Specialties </label>
+            <div class="col-sm-4">
+                <select>
+                    <option data-value="0">No preference</option>
+                    <option data-value="1">Allergy and Immunology</option>
+                    <option data-value="2">Addiction Medicine</option>
+                    <option data-value="3">Anesthesiology</option>
+                    <option data-value="4">Blood and Marrow transplantation</option>              
+                </select>
+            </div>
+          </div>
+
+          <div class="form-group form-group-lg">
+            <label class="col-sm-2 control-label" for="formGroupInputLarge">Availability </label>
+            <div class="col-sm-4">
+                <select>
+                    <option data-value="0">No preference</option>
+                    <option data-value="1">Available</option>
+                    <option data-value="2">Not available</option>              
+                </select>
+            </div>
+          </div>
+         
+         <div class="form-group">        
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default" style="background-color: #acf574"><strong>Search Doctors</strong></button>
+          </div>
+         </div>
+        </form>
+        <p></p><p></p>
+    </div>
     <form id="form1" runat="server">
-        <input type="text" class="form-control" />
-            <p>Enter a Doctor's Name:
-                <span class="input-group-btn">     
-                    <button class="btn btn-default" type="button">Search by Name</button>
-                </span>
-            </p>   
+        
     </form>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -72,7 +125,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
     <footer> <p>&copy 2014 - SJSU CMPE285 Team 6</p></footer>
 </body>
 </html>

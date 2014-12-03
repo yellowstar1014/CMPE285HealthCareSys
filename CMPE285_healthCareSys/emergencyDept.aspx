@@ -39,7 +39,7 @@
             <li><a href="hospital.aspx">Hospitals</a></li>
             <li><a href="findADoctor.aspx">Find a Doctor</a></li>
             <li><a href="firstAidInfo.aspx">First Aid Information</a></li>
-            <li class="active"><a href="emergencyDept.aspx">Emergency Department</a></li>
+            <li class="active"><a href="emergencyDept.aspx">SOS App Download</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
